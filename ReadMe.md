@@ -81,5 +81,7 @@ If the conda environment with jupyter notebook isn't what you want, you can also
     Install them with
     `pip install -r requirements.txt`
 
-Now you have setup a local environment and a docker environment for a ML development. 
+Now you have a virtual environment and a dockerized environment for your ML development. 
 
+wait.sh by vishnubob
+https://github.com/vishnubob/wait-for-it
