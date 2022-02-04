@@ -83,5 +83,5 @@ If the conda environment with jupyter notebook isn't what you want, you can also
 
 Now you have a virtual environment and a dockerized environment for your ML development. 
 
-Wait-for-it.sh by vishnubob
+wait.sh by vishnubob
 https://github.com/vishnubob/wait-for-it
