@@ -1,0 +1,11 @@
+version: "3"
+services:
+  lux-notebook:
+      build: conda
+      volumes:
+        - "C:/devonfw/workspaces/bachelor/conda:/home/jovyan/work"
+      ports:
+        - 8888:8888
+      container_name: lux-notebook-container
+
+      

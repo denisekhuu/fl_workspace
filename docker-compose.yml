@@ -1,0 +1,24 @@
+# Development Environment
+version: "3"
+
+networks:
+  experiment-tracking: 
+    external: false
+
+services:
+  temp_notebook:
+    build: setup/notebook
+    volumes:
+      - ./src:/home/jovyan/work
+      - ./mlruns:/home/jovyan/mlruns 
+    ports:
+      - 8888:8888
+    container_name: temp_notebook
+  temp_mlflow:
+      container_name: temp_mlflow
+      build: setup/mlflow
+      command: mlflow ui
+      volumes:
+        - ./mlruns:/mlruns 
+      ports: 
+      - "5000:5000" # map mlflow's default 5000 to desired port

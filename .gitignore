@@ -1,0 +1,14 @@
+# Ignore development env
+/env
+
+# Ignore conda cache
+.ipynb_checkpoints/
+
+# Ignore data files
+/data
+
+# Ignore cache
+__cache__/
+
+#vscode environment
+.vscode/

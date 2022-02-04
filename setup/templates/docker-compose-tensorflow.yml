@@ -1,0 +1,11 @@
+version: "3"
+services:
+  tensorflow-notebook:
+      image: jupyter/tensorflow-notebook
+      volumes:
+        - "C:/devonfw/workspaces/bachelor/conda:/home/jovyan/work"
+      ports:
+        - 8889:8889
+      container_name: tensorflow-notebook-container
+
+      

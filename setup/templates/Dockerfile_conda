@@ -1,0 +1,20 @@
+FROM continuumio/miniconda3
+
+WORKDIR /app
+
+# Make RUN commands use `bash --login`:
+SHELL ["/bin/bash", "--login", "-c"]
+
+# Create the environment:
+COPY environment.yml .
+RUN conda env create -f environment.yml
+
+# Initialize conda in bash config files:
+RUN conda init bash
+
+# Activate the environment, and make sure it's activated:
+RUN conda activate devenv
+
+# The code to run when container is started:
+COPY . /app
+#ENTRYPOINT ["python", "run.py"]
