@@ -1,5 +1,5 @@
-FROM python:3.8-slim-buster
-
-RUN pip3 install mlflow
+FROM python:3.7-slim-buster
+# Install python packages
+RUN pip install mlflow boto3 pymysql
 
 EXPOSE 5000

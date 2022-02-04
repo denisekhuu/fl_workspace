@@ -1,5 +1,6 @@
 # Ignore development env
 /env
+.env
 
 # Ignore conda cache
 .ipynb_checkpoints/
@@ -12,3 +13,6 @@ __cache__/
 
 #vscode environment
 .vscode/
+
+#vs environment 
+.vs/
