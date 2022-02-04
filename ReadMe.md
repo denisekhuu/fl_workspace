@@ -21,12 +21,19 @@ You need Docker and Docker Compose and you will find all the information you nee
 
 3. Create a '.env' file with the right configuration: 
 
-    `AWS_ACCESS_KEY_ID= $MINIO ID$ \n
-    AWS_SECRET_ACCESS_KEY= $MINIO KEY$ \n
-    MYSQL_DATABASE= $MYSQL DATABASE NAME$ \n
-    MYSQL_USER= $MYSQL USER$ \n
-    MYSQL_PASSWORD= $MYSQL PASSWORD$ \m
-    MYSQL_ROOT_PASSWORD= $MYSQL ROOT PASSWORD$ \n`
+    `
+    AWS_ACCESS_KEY_ID= $MINIO ID$ 
+
+    AWS_SECRET_ACCESS_KEY= $MINIO KEY$ 
+
+    MYSQL_DATABASE= $MYSQL DATABASE NAME$ 
+
+    MYSQL_USER= $MYSQL USER$ 
+
+    MYSQL_PASSWORD= $MYSQL PASSWORD$ 
+
+    MYSQL_ROOT_PASSWORD= $MYSQL ROOT PASSWORD$
+    `
 
 4. Run `docker-compose up` and you will find the following servers
 
