@@ -1,5 +1,6 @@
 # Ignore development env
 /env
+/src
 .env
 
 # Ignore conda cache
@@ -20,3 +21,4 @@ __cache__/
 #bat scripts 
 env.bat
 run.bat
+
