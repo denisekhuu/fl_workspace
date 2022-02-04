@@ -49,7 +49,7 @@ You will need Docker and Docker Compose and you will find all the information yo
 
 You can create your python files in the Jupyter Notebook UI. 
 If the conda environment with jupyter notebook isn't what you want, you can also create a local python virtual environment. 
-# Create A Local Python
+# Create A Python Virtual Environment
 
 1. Change to the ml_workspace in the terminal with 
 
