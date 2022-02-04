@@ -60,7 +60,7 @@ If the conda environment with jupyter notebook isn't what you want, you can also
 
     On Windows run 
 
-    `pip -m venv env`
+    `py -m venv env`
 
     Activate it in the terminal with
 
