@@ -13,11 +13,11 @@ You will need Docker and Docker Compose and you will find all the information yo
 # Running the Development Environment.
 
 1. Before you start you need to clone this repository with 
-`git clone https://github.com/denisekhuu/ml_workspace.git`
+    `git clone https://github.com/denisekhuu/ml_workspace.git`
 
 2. Change to the ml_workspace in the terminal with 
 
-`cd ml_workspace`
+    `cd ml_workspace`
 
 3. Create a '.env' file with the right configuration: 
 
