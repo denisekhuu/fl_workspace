@@ -8,7 +8,7 @@ MILETA is a Machine Learning Workspace Setup, which comes with
 
 # Get Started! 
 
-You need Docker and Docker Compose and you will find all the information you need here: https://docs.docker.com/desktop/windows/install/
+You will need Docker and Docker Compose and you will find all the information you need here: https://docs.docker.com/desktop/windows/install/
 
 # Running the Development Environment.
 
@@ -21,7 +21,7 @@ You need Docker and Docker Compose and you will find all the information you nee
 
 3. Create a '.env' file with the right configuration: 
 
-    `
+    ```
     AWS_ACCESS_KEY_ID= $MINIO ID$ 
 
     AWS_SECRET_ACCESS_KEY= $MINIO KEY$ 
@@ -33,7 +33,7 @@ You need Docker and Docker Compose and you will find all the information you nee
     MYSQL_PASSWORD= $MYSQL PASSWORD$ 
 
     MYSQL_ROOT_PASSWORD= $MYSQL ROOT PASSWORD$
-    `
+    ```
 
 4. Run `docker-compose up` and you will find the following servers
 
