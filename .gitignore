@@ -16,3 +16,7 @@ __cache__/
 
 #vs environment 
 .vs/
+
+#bat scripts 
+env.bat
+run.bat
