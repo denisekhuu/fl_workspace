@@ -1,5 +1,5 @@
 # Welcome to MILETA!
-MILETA is a Machine Learning Workspace Setup, which comes with 
+MILETA is a Federated Learning Workspace Setup, which comes with 
 * Tensorflow
 * Lux
 * MLFlow
