@@ -1,5 +1,5 @@
-# Welcome to MILETA!
-MILETA is a Federated Learning Workspace Setup, which comes with 
+# Welcome to my Federated Learning Workspace!
+FLETA is a Federated Learning Setup, which comes with 
 * Tensorflow
 * Lux
 * MLFlow
